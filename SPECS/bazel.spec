@@ -25,6 +25,9 @@ chmod +x %{buildroot}/usr/bin/%{name}
 /usr/bin/%{name}
 
 %changelog
+* Sat Sep 13 2025 Jamie Curnow <jc@jc21.com> - 8.4.1-1
+- v8.4.1
+
 * Fri Sep 5 2025 Jamie Curnow <jc@jc21.com> - 8.4.0-1
 - v8.4.0
 
