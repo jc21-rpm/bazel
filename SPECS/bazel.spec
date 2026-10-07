@@ -6,7 +6,7 @@
 %global __strip /bin/true
 
 Name:           bazel
-Version:        9.2.0
+Version:        9.3.0
 Release:        1%{?dist}
 Summary:        a fast, scalable, multi-language and extensible build system
 License:        Apache-2.0
@@ -25,6 +25,9 @@ chmod +x %{buildroot}/usr/bin/%{name}
 /usr/bin/%{name}
 
 %changelog
+* Thu Oct 8 2026 Jamie Curnow <jc@jc21.com> - 9.3.0-1
+- v9.3.0
+
 * Tue Jul 12 2026 Jamie Curnow <jc@jc21.com> - 9.2.0-1
 - v9.2.0
 
